@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Website Design</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    
+
+<!--header-->
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/logo.jpg" alt="logo-image">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+    
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn" ></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="Search Here..">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    
+
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/greenseed.jpeg" alt="cart-item">
+            <div class="content">
+                <h3>Cart item 01</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/brown.jpeg" alt="cart-item">
+            <div class="content">
+                <h3>Cart item 02</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+
+        
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/yelllow.jpg" alt="ssss-item">
+            <div class="content">
+                <h3>Cart item 03</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="images/red2.jpg" alt="cart-item">
+            <div class="content">
+                <h3>Cart item 04</h3>
+                <div class="price">$15.99/-</div>
+            </div>
+        </div>
+
+        <a href="#" class="btn" >Checkout Now</a>  
+ 
+    </div>
+
+</header>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Fresh Coffee in the morning</h3>
+        <p>Start Your Day with a Smile and a Sip. </p>
+        <a href="#" class="btn">Get yours now</a>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h1 class="heading"><span>About</span> Us</h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="images/about.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>What makes our coffee special?</h3>
+            <p>
+                Our coffee is crafted with a passion for excellence, starting with beans sourced from the best coffee-growing regions. 
+                We work directly with farmers who share our commitment to quality and sustainability, 
+                ensuring that every bean is handpicked and responsibly grown.
+                 This attention to detail guarantees 
+                that each cup is as fresh and flavorful as possible.
+            </p>
+            <p>
+                What makes our coffee stand out is the care we put into every step of the process. From the precise roasting to the artful brewing, we go the extra mile to deliver a cup that delights your senses. 
+                We believe coffee is more than a morning ritual — it’s a moment of pure enjoyment. Come in and taste the difference!
+
+            </p>
+            <a href="#" class="btn">Learn more</a>
+
+        
+        </div>
+    </div>
+</section>
+
+<section class="menu" id="menu">
+    <h1 class="heading">Our <span>Menu</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/mcappucinno.jpg" alt="menu">
+            <h3>Cappuccino</h3>
+            <div class="price">$12.99 <span>15.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="images/mmochcha.jpg" alt="menu">
+            <h3>Mocha</h3>
+            <div class="price">$25.99 <span>30.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <img src="images/mamericano.jpg" alt="menu">
+            <h3>Americano</h3>
+            <div class="price">$15.99 <span >20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        <div class="box">
+            <img src="images/mespresso.jpg" alt="menu">
+            <h3>Espresso</h3>
+            <div class="price">$15.99 <span>18.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            <img src="images/mmochcha.jpg" alt="menu">
+            <h3>Mocha</h3>
+            <div class="price">$15.99 <span>25.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+        
+        <div class="box">
+            <img src="images/mlatte.jpg" alt="menu">
+            <h3>Latte</h3>
+            <div class="price">$20.99 <span>30.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+  <section class="products" id="products">
+
+     <h1 class="heading"> Our <span>Products</span></h1>
+
+     <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product1.jpg" alt="pdt">
+                </div>
+            <div class="content">
+                <h3>Sunrise Roast</h3>
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa-regular fa-star"></i>
+
+                </div>
+                <div class="price">$15.99 <span>$25.99</span></div>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product2.jpg" alt="pdt">
+                </div>
+            <div class="content">
+                <h3>Velvet Blend</h3>
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+             
+
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+
+
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="images/product3.jpg" alt="pdt">
+                </div>
+            <div class="content">
+                <h3>Mountain Peak Coffee</h3>
+                <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+
+                </div>
+                <div class="price">$30.99 <span>$45.99</span></div>
+            </div>
+        </div>
+
+     </div>
+  </section>
+
+    <section class="review" id="review">
+        <h1 class="heading">customer's <span>review</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote2.png" alt="review" class="quote">
+                <p>The aroma alone is enough to brighten my day! Every sip is rich and flavorful. Best coffee I've ever had!</p>
+            <img src="images/user1.jpg" alt="user" class="user">
+            <h3>Harry J.</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="fa-regular fa-star"></i>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote2.png" alt="review" class="quote">
+                <p>I’ve tried many coffee brands, but nothing compares to the smoothness and boldness of this one. Absolutely fantastic!</p>
+            <img src="images/user2.jpg" alt="user" class="user">
+            <h3>David M.</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote2.png" alt="review" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur distinctio magnam quasi maxime sit cupiditate?
+
+                </p>
+            <img src="images/user3.jpg" alt="user" class="user">
+            <h3> Emma R.</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote2.png" alt="review" class="quote">
+                <p>This coffee is a game changer. The freshness is unmatched, and the taste is out of this world!</p>
+            <img src="images/user4.jpg" alt="user" class="user">
+            <h3>Sankavi</h3>
+
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>Contact</span> us</h1>
+        <div class="row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3933.086342504067!2d80.02595127475516!3d9.673663778565485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afe5418ded7811b%3A0xffcdcd5669c3ee23!2sAnna%20coffee!5e0!3m2!1sen!2slk!4v1727899045285!5m2!1sen!2slk" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <form action="">
+                <h3>Get in touch..</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email-address">
+                </div>
+
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="contact number">
+                </div>
+                <input type="submit" value="Contact now" class="btn">
+            </form>
+
+        </div>
+    </section>
+
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading">our <span>blogs</span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog.jpg" alt="blog">
+                </div>
+
+            <div class="content">
+                <a href="#" class="title">Brewed Perfection: Exploring the Art of Coffee</a>
+                <span>By Coffee Enthusiast /14th, may, 2024</span>
+                <p>On a journey to discover the finest beans, brewing methods, and everything that makes coffee special.</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+
+
+        <div class="box">
+            <div class="image">
+                <img src="images/blog.2jpg.jpg" alt="blog">
+            </div>
+
+        <div class="content">
+            <a href="#" class="title">The Coffee Chronicles: From Bean to Cup</a>
+            <span>By Brew Master /  2nd, february, 2024</span>
+            <p>On a mission to uncover the best flavors and techniques in the world of coffee.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </div>
+
+
+
+    <div class="box">
+        <div class="image">
+            <img src="images/blog3.jpg" alt="blog">
+        </div>
+
+    <div class="content">
+        <a href="#" class="title">Brewed Perfection: Exploring the Art of Coffee</a>
+        <span>by admin / 21st, december, 2023</span>
+        <p>Sharing the joy of every cup, from bean to brew, with fellow coffee lovers.</p>
+        <a href="#" class="btn">read more</a>
+    </div>
+</div>
+
+</div>
+
+</section>
+
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+            
+        </div>
+
+        <div class="credit">Created by <span>Miss.Sankavi Mahesan</span> | all rights reserved.</div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
